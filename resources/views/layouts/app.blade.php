@@ -1,0 +1,6 @@
+@include('inc.head')
+@include('inc.side-overlay')
+@include('inc.menu')
+@include('inc.navbar')
+@yield('content')
+@include('inc.footer')
